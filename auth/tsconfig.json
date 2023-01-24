@@ -12,9 +12,13 @@
     //    "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
     //    "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
     //    "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
-    "skipLibCheck": true,
+    "skipLibCheck": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "./coverage",
+    "./dist",
+    "__tests__",
+    "jest.config.js"
   ]
 }
